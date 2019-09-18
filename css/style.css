@@ -43,7 +43,7 @@ hr {
 
 header {
   background-color: #999;
-  background-image: url(img/cover.jpg);
+  background-image: url(../img/cover.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -321,6 +321,14 @@ footer hr {
 .spotlight a:hover {
   opacity: 1;
   cursor: pointer;
+}
+
+.spotlight #balloon-logo {
+  animation: horizontalShift 3s alternate infinite ease-in-out;
+}
+
+.spotlight #spook-logo {
+  animation: verticalShift 1.5s alternate infinite ease-in-out;
 }
 
 @media screen and (min-width: 40em) {

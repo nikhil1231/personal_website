@@ -1,0 +1,7 @@
+@keyframes horizontalShift {
+    to {transform: translatex(20px)}
+}
+
+@keyframes verticalShift {
+    to {transform: translatey(10px)}
+}

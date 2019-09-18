@@ -7,7 +7,9 @@
 	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
 	<!-- stylesheets -->
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/aos.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/animation.css" type="text/css" />
 	<!-- favicon -->
 	<link rel="shortcut icon" href="img/fav.ico">
 	
@@ -84,7 +86,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid-3">
-					<img src="img/balloon.png">
+					<img id='balloon-logo' src="img/balloon.png" data-aos="fade">
 				</div>
 				<div class="grid-3">
 					<h1>Balloon Breakout</h1>
@@ -110,7 +112,7 @@
 					<a target="_blank" href="https://docs.google.com/document/d/1N794ji-RJQ7YELy5msyo3rRM9esJjS3Hsf_3T5ubLCY/edit?usp=sharing">View</a>
 				</div>
 				<div class="grid-3">
-					<img src="img/crest.jpg">
+					<img src="img/crest.jpg" data-aos="fade">
 				</div>
 			</div>
 		</div>
@@ -119,7 +121,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="grid-3">
-					<img src="img/spook.png">
+					<img id='spook-logo' src="img/spook.png" data-aos="fade">
 				</div>
 				<div class="grid-3">
 					<h1>Spook Safe</h1>
@@ -172,15 +174,15 @@
 			<h1 class="center">Tests</h1>
 			<div class="row">
 				<div class="grid-2">
-					<h1 class='a-level'>34</h1>
+					<h1 class='a-level count-up' count-to='34'>0</h1>
 					<h2>ACT</h2>
 				</div>
 				<div class="grid-2">
-					<h1 class='a-level'>800</h1>
+					<h1 class='a-level count-up' count-to='800'>0</h1>
 					<h2>SAT Math II</h2>
 				</div>
 				<div class="grid-2">
-					<h1 class='a-level'>800</h1>
+					<h1 class='a-level count-up' count-to='800'>0</h1>
 					<h2>SAT Physics</h2>
 				</div>
 			</div>
@@ -287,5 +289,8 @@
 		
 	</div><!-- End Container -->
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src='js/aos.js'></script>
+	<script src='js/animation.js'></script>
 </body>
 </html>
